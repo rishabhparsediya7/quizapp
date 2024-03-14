@@ -1,0 +1,224 @@
+{
+    "questions": [
+        {
+            "question_number": 1,
+            "question": "What is JSX in React?",
+            "options": {
+                "a": "JavaScript Extension",
+                "b": "JavaScript XML",
+                "c": "JavaScript Syntax Extension",
+                "d": "JavaScript XML Syntax"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "question_number": 2,
+            "question": "What function is used in React to render elements into the DOM?",
+            "options": {
+                "a": "ReactDOM.render()",
+                "b": "React.render()",
+                "c": "ReactDOM.create()",
+                "d": "React.renderDOM()"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "question_number": 3,
+            "question": "Which of the following is a lifecycle method in React?",
+            "options": {
+                "a": "componentDidUnload()",
+                "b": "componentWillUpdate()",
+                "c": "componentShouldRender()",
+                "d": "componentDidHide()"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "question_number": 4,
+            "question": "What is the purpose of setState() in React?",
+            "options": {
+                "a": "To update the state of the component",
+                "b": "To set initial state",
+                "c": "To replace state with a new state",
+                "d": "To remove state from the component"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "question_number": 5,
+            "question": "What is the role of virtual DOM in React?",
+            "options": {
+                "a": "To speed up the rendering process",
+                "b": "To handle events",
+                "c": "To interact with the browser DOM",
+                "d": "To improve performance by minimizing DOM manipulation"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "question_number": 6,
+            "question": "Which of the following is used to pass data to a component from outside?",
+            "options": {
+                "a": "setState()",
+                "b": "props",
+                "c": "state",
+                "d": "data-props"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "question_number": 7,
+            "question": "What is a higher order component (HOC) in React?",
+            "options": {
+                "a": "A component with higher precedence",
+                "b": "A component that wraps another component",
+                "c": "A component that renders child components",
+                "d": "A component that has a higher state"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "question_number": 8,
+            "question": "What is the purpose of the componentDidMount() method?",
+            "options": {
+                "a": "To perform actions after a component is rendered",
+                "b": "To initialize state",
+                "c": "To update state",
+                "d": "To handle component unmounting"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "question_number": 9,
+            "question": "In React, what is used to pass data down from parent to child components?",
+            "options": {
+                "a": "props",
+                "b": "state",
+                "c": "context",
+                "d": "events"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "question_number": 10,
+            "question": "Which method is called when a component is being removed from the DOM in React?",
+            "options": {
+                "a": "componentWillUnmount()",
+                "b": "componentDidUnmount()",
+                "c": "componentDidRemove()",
+                "d": "componentWillRemove()"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "question_number": 11,
+            "question": "What is the purpose of React Router?",
+            "options": {
+                "a": "To handle HTTP requests",
+                "b": "To manage state",
+                "c": "To create navigation in React applications",
+                "d": "To style components"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "question_number": 12,
+            "question": "What does CSS-in-JS refer to in React?",
+            "options": {
+                "a": "A way of styling React components using JavaScript",
+                "b": "A method for handling AJAX requests in React",
+                "c": "A feature to integrate CSS with JavaScript",
+                "d": "A library for animation in React"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "question_number": 13,
+            "question": "What is the purpose of shouldComponentUpdate() method in React?",
+            "options": {
+                "a": "To check if a component should be updated",
+                "b": "To update state",
+                "c": "To handle component rendering",
+                "d": "To initialize state"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "question_number": 14,
+            "question": "What is the purpose of keys in React lists?",
+            "options": {
+                "a": "To identify unique elements in a list",
+                "b": "To apply styles to list items",
+                "c": "To sort the list items",
+                "d": "To filter list items"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "question_number": 15,
+            "question": "What is Redux in React?",
+            "options": {
+                "a": "A state management library",
+                "b": "A server-side rendering tool",
+                "c": "A form validation library",
+                "d": "A testing framework"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "question_number": 16,
+            "question": "Which of the following is NOT a hook in React?",
+            "options": {
+                "a": "useState",
+                "b": "useEffect",
+                "c": "useLifecycle",
+                "d": "useContext"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "question_number": 17,
+            "question": "What is the purpose of useCallback() hook in React?",
+            "options": {
+                "a": "To memoize functions",
+                "b": "To update state",
+                "c": "To create reusable components",
+                "d": "To handle form validation"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "question_number": 18,
+            "question": "What is the main advantage of using React hooks?",
+            "options": {
+                "a": "Simplifies state management",
+                "b": "Improves performance",
+                "c": "Enhances code readability",
+                "d": "All of the above"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "question_number": 19,
+            "question": "What is the purpose of the useRef() hook in React?",
+            "options": {
+                "a": "To reference DOM elements",
+                "b": "To update state",
+                "c": "To fetch data from an API",
+                "d": "To manage subscriptions"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "question_number": 20,
+            "question": "Which hook is used to perform side effects in React?",
+            "options": {
+                "a": "useState()",
+                "b": "useReducer()",
+                "c": "useEffect()",
+                "d": "useContext()"
+            },
+            "correct_answer": "c"
+        }
+    ]
+}
