@@ -119,7 +119,7 @@ const Questions = ({ questionProp, answers }) => {
           </div>
           <div className="w-full px-10">
             <div className="w-full flex flex-col bg-[#484848] rounded-md p-10">
-              {question.options.a && <QuestionComponent question={question} />}
+              {question.options && <QuestionComponent question={question} />}
               <div className="flex justify-end gap-x-2 px-2">
                 <button
                   onClick={() => handlePrevious(question.question_number)}
