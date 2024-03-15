@@ -1,35 +1,10 @@
-.container-option {
-  padding: 10px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 10px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "option1 option2"
-    "option3 option4";
-}
 
-.option1 {
-  grid-area: option1;
-}
-
-.option2 {
-  grid-area: option2;
-}
-
-.option3 {
-  grid-area: option3;
-}
-
-.option4 {
-  grid-area: option4;
-}
 .option1,
 .option2,
 .option3,
 .option4 {
   background: #646cffaa;
+  width: 100%;
   border-radius: 5px;
   padding: 10px;
 }

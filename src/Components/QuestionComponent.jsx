@@ -11,11 +11,11 @@ const QuestionComponent = ({ question }) => {
   };
   let classNames;
   return (
-    <div className="flex flex-col ">
-      <div className="question">
+    <div className="w-full flex flex-col gap-y-2">
+      <div className="text-lg sm:text-xl">
         {question.question_number}. {question.question}
       </div>
-      <div className="container-option">
+      <div className="flex flex-wrap gap-y-2">
         {buttons.map((but, index) => {
           classNames = `option${index + 1}`;
           return (

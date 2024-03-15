@@ -18,7 +18,7 @@ const List = () => {
     setActiveIndex(no);
   }, [no]);
   return (
-    <div className="w-full">
+    <div className="w-full hidden sm:block">
       <ul className="w-full list-ul py-3 space-y-2 px-2 text-white h-[100vh] overflow-hidden overflow-y-scroll">
         {questionList.map((list, index) => {
           return (

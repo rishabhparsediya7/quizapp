@@ -15,11 +15,11 @@ function App() {
     dispatch(updateQuestion(0));
   }, []);
   return (
-    <div className="container">
+    <div className="flex flex-col sm:flex-row">
       <div className="list">
         <List />
       </div>
-      <div className="questions">
+      <div className="w-full">
         {question && <Questions questionProp={question} answers={answers} />}
       </div>
     </div>
